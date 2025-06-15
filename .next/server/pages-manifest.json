@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/say-the-same-word": "pages/say-the-same-word.js",
-  "/forbidden-word-game": "pages/forbidden-word-game.js"
+  "/": "pages/index.js"
 }
