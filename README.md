@@ -1,33 +1,54 @@
-# Personal Portfolio Website
+# Game Party 🎮
 
-A modern, responsive portfolio website built with Next.js and Tailwind CSS.
+A collection of fun party games built with Next.js and Tailwind CSS. Perfect for gatherings and social events!
 
-## Features
+## 🎲 Available Games
 
-- Responsive design
-- Smooth animations using Framer Motion and AOS
-- Interactive project showcase with slider
-- Skills section with categorized icons
-- Timeline-based journey section
-- Modern UI with Tailwind CSS
+1. **เกมไพ่โดเรม่อน (Doraemon Card Game)**
 
-## Tech Stack
+   - Classic card game with special rules
+   - Sound effects and animations
+   - Card history tracking
 
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Framer Motion
-- AOS (Animate On Scroll)
-- React Slick
-- React Icons
+2. **Never Have I Ever**
 
-## Getting Started
+   - Fun drinking game with customizable questions
+   - Player tracking and drink counting
+   - Category-based questions
+
+3. **เกมทายคำ (Word Guess)**
+
+   - Word guessing game with hints
+   - Timer-based rounds
+   - Player score tracking
+
+4. **เกมอื่นๆ อีกมากมาย...**
+   - Rhyme Battle
+   - Love Roulette
+   - Lie Detector
+   - Drunken Charades
+   - Confess in 10 Seconds
+   - Fast Tap
+   - Mind Reader
+   - Say the Same Word
+   - Forbidden Word Game
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Icons:** React Icons
+- **Audio:** HTML5 Audio API
+
+## 🚀 Getting Started
 
 1. Clone the repository:
 
 ```bash
 git clone <repository-url>
-cd portfolio-v1
+cd game-party
 ```
 
 2. Install dependencies:
@@ -44,23 +65,45 @@ npm run dev
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Project Structure
+## 📁 Project Structure
 
 ```
-├── components/         # Reusable components
-├── sections/          # Page sections
-├── styles/           # Global styles
-├── public/           # Static assets
-└── pages/            # Next.js pages
+├── components/     # Reusable components (BackButton, etc.)
+├── pages/         # Game pages and routes
+├── public/        # Static assets (sounds, images)
+│   └── sounds/    # Game sound effects
+├── styles/        # Global styles
+└── types/         # TypeScript type definitions
 ```
 
-## Customization
+## 🎨 Features
 
-1. Update personal information in the respective section components
-2. Modify the color scheme in `tailwind.config.ts`
-3. Add your own projects in the `Projects.tsx` component
-4. Update social media links in the `Footer.tsx` component
+- **Responsive Design:** Works on all devices
+- **Modern UI:** Clean and intuitive interface
+- **Sound Effects:** Immersive gaming experience
+- **Animations:** Smooth transitions and effects
+- **Player Tracking:** Score and history management
+- **Easy Navigation:** Back button for all games
 
-## License
+## 🎯 Game Rules
 
-MIT
+Each game has its own set of rules and mechanics. Check the individual game pages for detailed instructions.
+
+## 🤝 Contributing
+
+Feel free to contribute to this project by:
+
+1. Adding new games
+2. Improving existing games
+3. Fixing bugs
+4. Adding new features
+
+## 📝 License
+
+MIT License - feel free to use this project for your own party games!
+
+## 🙏 Acknowledgments
+
+- Inspired by various party games
+- Built with modern web technologies
+- Designed for maximum fun and engagement
